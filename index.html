@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Card</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>The <span>UN</span>beliveable Health Co.</h1>
+    </header>
+    <main class="container">
+        <section class="basic">
+            <div class="top">
+                <img src="icons/basic.jpg" alt="basic" width="100px">
+                <h3>BASIC COVER</h3>
+            </div>
+            <div class="description">
+                <p class="specs">BASIC HOSPITAL COVER WITH OPTIONAL EXTRAS</p>
+                <p class="specs">STARTS AS LOW AS $50 PER MONTH</p>
+            </div>
+            <div class="price">
+                <small>starts at</small>
+                <h1 id="basic">$50 <span>/month</span></h1>                
+            </div>
+            <button class="learn">LEARN MORE</button>
+        </section>
+        
+        <section class="silverplus">
+            <div class="top">
+                <img src="icons/silverplus.jpg" alt="silverplus" width="100px">
+                <h3>SILVER PLUS</h3>
+            </div>
+            <div class="description">
+                <p class="specs">TOP HOSPITAL COVER PLUS GENERAL DENTAL COVER</p>
+                <p class="specs">PERFECT FOR SINGLES</p>
+            </div>
+            <div class="price">                
+                <h1 id="basic">$150 <span>/month</span></h1>                
+            </div>
+            <button class="learn">LEARN MORE</button>
+        </section>
+        
+        <section class="premium">
+            <div class="top">
+                <img src="icons/premium.jpg" alt="premium" width="100px">
+                <h3>PREMIUM</h3>
+            </div>
+            <div class="description">
+                <p class="specs">TOP HOSPITALS, TOP EXTRAS WITH MAJOR DENTAL COVER</p>
+                <p class="specs">PERFECT FOR A SMALL FAMILY</p>
+            </div>
+            <div class="price">                
+                <h1 id="basic">$200 <span>/month</span></h1>                
+            </div>
+            <button class="learn">LEARN MORE</button>
+        </section>   
+        <div class="pop">
+            <div class="basic-detail detail">
+                <div class="boxClose">
+                    <i class="fas fa-times-circle"></i> 
+                </div>                
+                <table>
+                        <tr>
+                            <th>Inclusions</th>
+                            <th>Waiting Period</th>
+                        </tr>
+                        <tr>
+                            <td class="one">Ambulance Services</td>
+                            <td class="one-waiting wait">1 day</td>
+                        </tr>
+                        <tr>
+                            <td class="two">Accident Covers</td>
+                            <td class="two-waiting wait">Nil</td>
+                        </tr>
+                        <tr>
+                            <td class="three">Rehabilitation Service - Public Hospital</td>
+                            <td class="three-waiting wait">1 month</td>
+                        </tr>
+                        <tr>
+                            <td class="four">Optional Basic Extras</td>
+                            <td class="four-waiting wait">2 months +</td>
+                        </tr>                    
+                </table>
+                <div class="go">
+                    <button class="add"></button>                    
+                    <button class="signup">Sign Up</button>
+                </div>
+                
+                <div class="fadein">
+                    <p></p> 
+                    <span class="extra-price">$8 Extra Per Month</span>                    
+                    <ul>
+                        <li class="detail-one"><i class="far fa-check-circle"></i>  </li>
+                        <li class="detail-two"><i class="far fa-check-circle"></i>  </li>
+                        <li class="detail-three"><i class="far fa-check-circle"></i>  </li>
+                    </ul>
+                    <button class="yes">Add</button>
+                    <button class="no">Cancel Add</button>
+                    <i class="fas fa-times-circle close"></i>
+                </div>                
+            </div>
+        </div>     
+    </main>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+    
+
+    
+</body>
+
+</html>
